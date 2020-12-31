@@ -2463,3 +2463,20 @@ RESPONSIVE
 .shop-desc ul li {
     color: grey;
 }
+
+
+
+
+/* projects img of all listing pages */
+    .course-box .entry {
+            overflow: hidden;
+        }
+    .course-box .entry img { 
+        /*width: 100%; */
+        /*overflow: hidden;*/
+        transition: 0.3s all ease-in-out; 
+    } 
+       
+    .course-box .entry:hover img { 
+        transform: scale(1.2); 
+    }
