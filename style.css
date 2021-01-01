@@ -2121,7 +2121,7 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-    color: #01bacf;
+    color: #ff1515;
 }
 
 .shop-extra .nav-tabs>li:hover a,
@@ -2150,9 +2150,11 @@ mark,
 .image-wrap:before,
 .image-wrap:after,
 .btn-primary {
-    border-color: #01bacf;
-    background-color: #01bacf;
-    box-shadow: inset 0 0 0 0 #00a8bd;
+    /*border-color: #01bacf;*/
+    border-color: #ff1415;
+    background-color: #ff1415;
+    /*background-color: #01bacf;*/
+    box-shadow: inset 0 0 0 0 #ff1415;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -2162,8 +2164,8 @@ mark,
 .tags-widget a:hover,
 .btn-primary:hover {
     color: #ffffff !important;
-    box-shadow: inset 0 100px 0 0 #00a8bd;
-    border-color: #00a8bd;
+    box-shadow: inset 0 100px 0 0 #870c13;
+    border-color: #870c13;
 }
 
 
@@ -2177,8 +2179,10 @@ COLOR GREEN
 }
 
 .btn-default {
-    border-color: #82b440;
-    background-color: #82b440;
+    /*border-color: #82b440;*/
+    border-color: #32ed20;
+    /*background-color: #82b440;*/
+    background-color: #32ed20;
     box-shadow: inset 0 0 0 0 #74a632;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
