@@ -2090,7 +2090,7 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #01bacf;
+    /*border-top-color: #32ed20;*/
 }
 
 .iconitem a.shopicon i {
@@ -2483,4 +2483,14 @@ RESPONSIVE
        
     .course-box .entry:hover img { 
         transform: scale(1.2); 
+    }
+
+
+
+
+/* transparent navigation for desktop and black color for less than 767px devices */
+    @media only screen and (max-width: 767px) {
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+            background-color: #fff;
+        }
     }

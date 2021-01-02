@@ -42,7 +42,7 @@
 
     <!-- LOADER -->
     <div id="preloader">
-        <img class="preloader" src="images/loader.gif" alt="">
+        <img class="preloader" src="images/img/logo/preloader-ring-1.gif" alt="">
     </div><!-- end loader -->
     <!-- END LOADER -->
 
@@ -73,7 +73,7 @@
                     <div class="row-fluid">
                         <div class="col-md-6 col-sm-6 text-left">
                             <p>
-                                <strong><i class="fa fa-phone"></i></strong> +91 87884 14717 &nbsp;&nbsp;
+                                <strong><i class="fa fa-phone"></i></strong> +91 87884 14717 &nbsp;&nbsp;<br><br>
                                 <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:esparktech.info@gmail.com">esparktech.info@gmail.com</a>
                             </p>
                         </div><!-- end left -->
@@ -85,6 +85,7 @@
                                 <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                                 <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
                             </div><!-- end social -->
+                            <div id="google_translate_element"></div>
                         </div><!-- end left -->
                     </div><!-- end row -->
                 </div><!-- end container -->
@@ -145,6 +146,7 @@
                             </li> -->
                             <li><a href="index.html#our-works-home-pg">Our Works</a></li>
                             <li><a href="page-contact.html">Contact</a></li>
+                            <li><a href="#">Projects</a></li>
                             <!-- <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
                             <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> -->
                         </ul>
@@ -175,10 +177,10 @@
             <div class="container">
                 <div class=" ">
                     <div class="row">
-                        <div class="col-md-6 shop-media">
+                        <div class="col-md-6 shop-media wow fadeInDown">
                             <div class="row">
                                 <div class="col-md-12">
-                                <div class="image-wrap entry wow fadeInLeft">
+                                <div class="image-wrap entry">
                                     <img src="images/img/extra/internship-new-1.jpg" alt="" class="img-responsive">
                                     <!-- <div class="magnifier">
                                         <a rel="prettyPhoto[inline]" href="upload/single_shop_01.jpg" title=""><i class="flaticon-add"></i></a>
@@ -192,7 +194,7 @@
                             
                         </div><!-- end col -->
 
-                        <div class="col-md-6 wow fadeInRight">
+                        <div class="col-md-6 wow fadeInUp">
                             <div class="shop-desc">
                                 <h3>Internship</h3>
                                 <!-- <small>$20.00</small> -->
@@ -370,6 +372,52 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="assets/venobox/venobox.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?94197';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"30",
+      "marginBottom":"30",
+      "marginRight":"0",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"Espark Tech",
+      "brandSubTitle":"",
+      "brandImg":"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+      "welcomeText":"Hi, there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about ",
+      "backgroundColor":"#4ac959",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"918788414717"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    </script>
+    <script type="text/javascript">  
+        function googleTranslateElementInit() {  
+            new google.translate.TranslateElement( 
+                {pageLanguage: 'en'},  
+                'google_translate_element' 
+            );  
+        }  
+    </script>
+    <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> 
+    </script>
 
 </body>
 </html>
