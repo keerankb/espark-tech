@@ -1027,7 +1027,7 @@ SECTIONS
 
 .slider-bottom {
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     left: 0;
     font-size: 10px;
     text-transform: uppercase;
@@ -1063,6 +1063,7 @@ SECTIONS
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+    padding-top: 185px;
 }
 
 .home-message p {
@@ -1942,7 +1943,7 @@ FOOTER
     height: 48px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    min-width: 280px;
+    min-width: 225px;
 }
 
 .newsletter-widget img {
@@ -2492,5 +2493,18 @@ RESPONSIVE
     @media only screen and (max-width: 767px) {
         .navbar-default .navbar-collapse, .navbar-default .navbar-form {
             background-color: #fff;
+        }
+    }
+
+
+
+/* home screen explore button and overlapping issue solved */
+    @media (max-width: 768px) {
+        .topbar .text-right {
+            text-align: center;
+        }
+        .slider-bottom {
+            bottom: 0px;
+            /*display: none;*/
         }
     }
