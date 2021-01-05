@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <!-- Site Meta -->
-    <title>Our Projects - Spark Tech</title>
+    <title>Project Details - Spark Tech</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -27,7 +27,7 @@
     <!-- Custom & Default Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
 
@@ -53,30 +53,32 @@
                     <!-- Begin # DIV Form -->
                     <div id="div-forms">
                         <form id="login-form">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span class="flaticon-add" aria-hidden="true"></span>
-                            </button>
-                            <div class="modal-body">
-                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            <div class="modal-header">
+                                <h3>Enquiry Form</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #000">
+                                    <span class="flaticon-add" aria-hidden="true"></span>
+                                </button>    
                             </div>
+                            
+                            <div class="modal-body">
+                                <!-- <input class="form-control" type="text" placeholder="What you are looking for?" required> -->
+                                <input type="text" class="form-control" placeholder="Enter your name.." required>
+                                <input type="email" class="form-control" placeholder="Enter email.." required>
+                                <input type="text" class="form-control" placeholder="Your phone.." required>
+                                <!-- <input type="text" class="form-control" placeholder="Subject.." required> -->
+                                <textarea class="form-control" placeholder="Message goes here.." required></textarea>
+                                </div>
+                                <div class="modal-footer text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>    
+                                </div>
+                                
+                            
                         </form><!-- End # Login Form -->
                     </div><!-- End # DIV Form -->
                 </div>
             </div>
         </div>
         <!-- END # MODAL LOGIN -->
-
-<style>
-    @media (max-width: 768px) {
-        .topbar .text-right {
-            text-align: center;
-        }
-        .slider-bottom {
-            bottom: 0px;
-            /*display: none;*/
-        }
-    }
-</style>
 
         <header class="header header-normal">
             <div class="topbar clearfix">
@@ -112,7 +114,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <div class="logo-normal">
-                            <a class="navbar-brand" href="index.html"><img src="images/img/logo/logo-black.jpeg" alt="" style="max-width: 65px;"></a>
+                            <a class="navbar-brand" href="index.html"><img src="images/img/logo/logo-black.jpeg" alt="" style="width: 70px; height: 60px; position: absolute; top: -5px;"></a>
                         </div>
                     </div>
 
@@ -166,205 +168,90 @@
             </div><!-- end container -->
         </header>
 
-        <section class="section lb p120">
+        <section class="section cb">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="tagline-message page-title text-center wow slideInUp">
-                            <h3>Our Project</h3>
-                            <!-- <ul class="breadcrumb"> -->
-                                <!-- <li><a href="index.html">Spark Tech</a></li> -->
-                                <!-- <li class="active">Services</li> -->
-                            <!-- </ul> -->
+                    <div class="col-md-6">
+                        <div class="tagline-message page-title">
+                            <h3>Our Projects</h3>
                         </div>
                     </div><!-- end col -->
+                    <div class="col-md-6 text-right">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Spark Tech</a></li>
+                            <li><a href="our-projects.html">Our Projects</a></li>
+                            <li class="active">Project Details</li>
+
+                        </ul>
+                    </div>
                 </div><!-- end row -->
             </div><!-- end container -->
         </section><!-- end section -->
 
-<style>
-    .btn-enroll {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-radius: 20px; 
-    }
-</style>
-
-        <section class="section gb nopadtop">
+        <section class="section">
             <div class="container">
-                <div class="boxed boxedp4">
-                    <!-- <div class="shop-top">
-                        <div class="clearfix">
-                            <div class="pull-left">
-                                <p> Showing 1–9 of 11 results</p>
-                            </div>
-                            <div class="pull-right">
-                            <select class="selectpicker">
-                                <option>Price - High to Low</option>
-                                <option>Price - Low to High</option>
-                                <option>Newest Items</option>
-                                <option>Older Items</option>
-                            </select>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <div class="row blog-grid shop-grid">
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
+                <div class=" ">
+                    <div class="row">
+                        <div class="col-md-6 shop-media wow fadeInDown">
+                            <div class="row">
+                                <div class="col-md-12">
                                 <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-1.jpg" alt="" class="img-responsive">
+                                    <img src="images/img/extra/vlsi-new-1.jpg" alt="" class="img-responsive">
                                     <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
+                                        <a rel="prettyPhoto[inline]" href="upload/single_shop_01.jpg" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
+                                </div><!-- end image-wrap -->
                                 </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-                                        Project Name
-                                        <!-- <small>Hardware</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->
-                            </div><!-- end box -->
+                            </div><!-- end row -->
+
+                            <hr class="invis">
+
+                            
                         </div><!-- end col -->
 
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
-                                <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-2.jpg" alt="" class="img-responsive">
-                                    <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
-                                    </div> -->
-                                </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-<!--                                         <div style="float: left;">
-                                            <small>Software</small>    
-                                        </div>
-                                        <div style="float: right;">
-                                            <a href="me-iot-proj.html" title="">Java</a>    
-                                        </div> -->
-                                        Project Name
-                                        <!-- <small>Software</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->
-                            </div><!-- end box -->
-                        </div><!-- end col -->
+                        <div class="col-md-6 wow fadeInUp">
+                            <div class="shop-desc">
+                                <h3>Project Details</h3>
+                                <!-- <small>$20.00</small> -->
+                                
+                                    <p>Nunc tristique condimentum nulla, vel imperdiet elit finibus vel. Mauris tristique, erat eget semper feugiat, tortor justo volutpat mauris, ac semper urna enim ac lacus. Proin est elit, tempor sit amet velit quis, ornare ultricies est. Etiam et ligula imperdiet, eleifend nisi non, tincidunt est. Aenean consequat eget justo viverra auctor. Vestibulum eget lectus dictum, lacinia sapien eu, sodales lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
-                                <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-3.jpg" alt="" class="img-responsive">
-                                    <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
-                                    </div> -->
-                                </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-                                        Project Name
-                                        <!-- <small>Hardware</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->
-                            </div><!-- end box -->
-                        </div><!-- end col -->
+                                    Morbi in ante vel lacus aliquet molestie. Nullam semper facilisis tincidunt. Duis ultrices tincidunt nunc sed pharetra. Aenean ut semper lorem. Vestibulum laoreet dictum justo, nec fermentum arcu facilisis vitae. Sed eros leo, iaculis blandit fringilla sed, luctus vel dui. Vivamus vestibulum eros in tempus facilisis. Aliquam et eleifend dolor. Sed in ex metus. Donec felis ante, efficitur quis viverra eu, bibendum luctus lectus. Morbi volutpat felis tincidunt arcu placerat cursus.</p>
+                                    <div class="shop-meta">
+                                        <a href="#" data-toggle="modal" data-target="#login-modal" class="btn btn-primary">Enquiry</a>
+                                    </div><!-- end shop meta -->
 
-                        
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
-                                <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-2.jpg" alt="" class="img-responsive">
-                                    <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
-                                    </div> -->
-                                </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-                                        Project Name
-                                        <!-- <small>Machine Learning</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->                                
-                            </div><!-- end box -->
-                        </div><!-- end col -->
-
-
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
-                                <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-3.jpg" alt="" class="img-responsive">
-                                    <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
-                                    </div> -->
-                                </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-                                        Project Name
-                                        <!-- <small>Software</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->                                
-                            </div><!-- end box -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 wow fadeInUp">
-                            <div class="course-box shop-wrapper">
-                                <div class="image-wrap entry">
-                                    <img src="images/img/extra/project-new-1.jpg" alt="" class="img-responsive">
-                                    <!-- <div class="magnifier">
-                                        <a href="#" title=""><i class="flaticon-add"></i></a>
-                                    </div> -->
-                                </div>
-                                <!-- end image-wrap -->
-                                <div class="course-details shop-box text-center">
-                                    <h4>
-                                        Project Name
-                                        <!-- <small>Hardware</small> -->
-                                    </h4>
-                                    <div class="btn-enroll">
-                                        <a class="btn btn-primary" href="project-details.html">Read More</a>
-                                    </div>
-                                </div>
-                                <!-- end details -->                                
-                            </div><!-- end box -->
+                            </div><!-- end desc -->
                         </div><!-- end col -->
                     </div><!-- end row -->
+
                     <hr class="invis">
-                </div>
+
+                </div><!-- end boxed -->
             </div><!-- end container -->
         </section>
 
         <footer class="section footer noover">
             <div class="container">
                 <div class="row">
+                                        
                     <div class="col-lg-3 col-md-3">
                         <div class="widget clearfix">
-                            <h3 class="widget-title">Join us today</h3>
-                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
-                            <a href="page-contact.html" class="readmore">Became a Teacher</a>
+                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
+                            <div class="newsletter-widget">
+                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
+                                <form class="form-inline" role="search">
+                                    <div class="form-1">
+                                        <input type="text" class="form-control" placeholder="Enter email here..">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                    </div>
+                                </form>
+                                <!-- <img src="images/payments.png" alt="" class="img-responsive"> -->
+                            </div><!-- end newsletter -->
                         </div><!-- end widget -->
                     </div><!-- end col -->
+
+                    
 
                     <div class="col-lg-3 col-md-3">
                         <div class="widget clearfix">
@@ -395,22 +282,14 @@
                         </div><!-- end widget -->
                     </div><!-- end col -->
 
-
                     <div class="col-lg-3 col-md-3">
                         <div class="widget clearfix">
-                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
-                            <div class="newsletter-widget">
-                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
-                                <form class="form-inline" role="search">
-                                    <div class="form-1">
-                                        <input type="text" class="form-control" placeholder="Enter email here..">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
-                                    </div>
-                                </form>
-                                <!-- <img src="images/payments.png" alt="" class="img-responsive"> -->
-                            </div><!-- end newsletter -->
+                            <h3 class="widget-title">Join us today</h3>
+                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
+                            <a href="page-contact.html" class="readmore">Became a Teacher</a>
                         </div><!-- end widget -->
                     </div><!-- end col -->
+                    
 
                 </div><!-- end row -->
             </div><!-- end container -->
@@ -443,7 +322,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/animate.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/custom.js"></script>
     <script>
     var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?94197';
@@ -457,8 +336,8 @@
       "backgroundColor":"#4dc247",
       "ctaText":"",
       "borderRadius":"25",
-      "marginLeft":"15",
-      "marginBottom":"15",
+      "marginLeft":"30",
+      "marginBottom":"30",
       "marginRight":"0",
       "position":"left"
   },

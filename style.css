@@ -354,13 +354,13 @@ HEADER
 }
 
 .modal {
-    top: 40%;
-    margin: -20px auto;
+    /*top: 10%;*/
+    /*margin: -20px auto;*/
 }
 
 .modal-backdrop.in {
-    opacity: 1;
-    background: url(images/pattern.png) repeat center center rgba(0, 0, 0, 1);
+    /*opacity: 1;*/
+    /*background: url(images/pattern.png) repeat center center rgba(0, 0, 0, 1);*/
 }
 
 .modal-header {
@@ -371,7 +371,8 @@ HEADER
 
 .modal-content {
     background-clip: padding-box;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #fff;
     border: 0;
     border-radius: 6px;
     box-shadow: none !important;
@@ -385,7 +386,7 @@ HEADER
     padding: 0;
     position: absolute;
     right: 14px;
-    top: 27px;
+    top: 10px;
     width: 40px;
     z-index: 111;
     transform: rotate(315deg);
@@ -404,13 +405,13 @@ HEADER
     background-image: none;
     border: 0;
     border-radius: 0;
-    font-family: 'Droid Serif', sans-serif;
+    /*font-family: 'Droid Serif', sans-serif;*/
     box-shadow: none;
     color: #555;
     display: block;
     font-size: 16px;
     line-height: 1.42857;
-    font-style: italic;
+    /*font-style: italic;*/
     padding: 6px 12px;
     width: 100%;
     border-bottom: 4px solid #222;
@@ -1716,7 +1717,7 @@ TESTIMONIAL
     font-size: 29px;
     font-weight: bold;
     line-height: 36px;
-    padding: 30px 8px 0;
+    /*padding: 30px 8px 0;*/
 }
 
 .p40l {
@@ -1943,7 +1944,7 @@ FOOTER
     height: 48px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    min-width: 225px;
+    /*min-width: 225px;*/
 }
 
 .newsletter-widget img {
