@@ -59,12 +59,18 @@
                                     <span class="flaticon-add" aria-hidden="true"></span>
                                 </button>    
                             </div>
-                            
+                <style>
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+                </style>            
                             <div class="modal-body">
                                 <!-- <input class="form-control" type="text" placeholder="What you are looking for?" required> -->
                                 <input type="text" class="form-control" placeholder="Enter your name.." required>
                                 <input type="email" class="form-control" placeholder="Enter email.." required>
-                                <input type="text" class="form-control" placeholder="Your phone.." required>
+                                <input type="number" class="form-control" placeholder="Your phone.." required maxlength="10" minlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                 <!-- <input type="text" class="form-control" placeholder="Subject.." required> -->
                                 <textarea class="form-control" placeholder="Message goes here.." required></textarea>
                                 </div>
