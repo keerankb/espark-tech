@@ -1068,7 +1068,7 @@ SECTIONS
 }
 
 .home-message p {
-    font-size: 54px;
+    font-size: 48px;
     color: #ffffff;
     padding: 0;
     margin: 0;
@@ -2242,7 +2242,10 @@ RESPONSIVE
         padding: 30px 10px;
     }
     .home-message p {
-        font-size: 28px;
+        font-size: 25px;
+    }
+    .home-message small {
+        font-size: 13px;
     }
     .topbar .text-left {
         text-align: center;
