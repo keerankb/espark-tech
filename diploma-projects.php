@@ -17,8 +17,8 @@
     <meta name="author" content="">
     
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/img/logo/logo-white.jpeg" type="image/x-icon" />
+    <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
@@ -39,121 +39,7 @@
 </head>
 <body>  
 
-    <!-- LOADER -->
-    <div id="preloader">
-        <img class="preloader" src="images/img/logo/preloader-ring-1.gif" alt="">
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-
-    <div id="wrapper">
-        <!-- BEGIN # MODAL LOGIN -->
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Begin # DIV Form -->
-                    <div id="div-forms">
-                        <form id="login-form">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span class="flaticon-add" aria-hidden="true"></span>
-                            </button>
-                            <div class="modal-body">
-                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
-                            </div>
-                        </form><!-- End # Login Form -->
-                    </div><!-- End # DIV Form -->
-                </div>
-            </div>
-        </div>
-        <!-- END # MODAL LOGIN -->
-
-        <header class="header header-normal">
-            <div class="topbar clearfix">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="col-md-6 col-sm-6 text-left">
-                            <p>
-                                <strong><i class="fa fa-phone"></i></strong> +91 87884 14717 &nbsp;&nbsp;<br><br>
-                                <strong><i class="fa fa-envelope"></i></strong> <a href="mailto:esparktech.info@gmail.com">esparktech.info@gmail.com</a>
-                            </p>
-                        </div><!-- end left -->
-                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
-                            <div class="social">
-                                <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
-                                <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
-                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                            </div><!-- end social -->
-                            <div id="google_translate_element"></div>
-                        </div><!-- end left -->
-                    </div><!-- end row -->
-                </div><!-- end container -->
-            </div><!-- end topbar -->
-
-            <div class="container">
-                <nav class="navbar navbar-default yamm">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="logo-normal">
-                            <a class="navbar-brand" href="index.html"><img src="images/img/logo/logo-white.jpeg" alt="" style="max-width: 65px;"></a>
-                        </div>
-                    </div>
-
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="aboutus.html">About Us</a></li>
-                            <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown" class="dropdown-toggle active">Services <b class="fa fa-angle-down"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <div class="yamm-content clearfix">
-                                            <div class="row-fluid">
-                                                <ul>
-                                                    <li><a href="services.html">Project Development</a></li>
-                                                    <li><a href="workshop.html">Workshop</a></li>
-                                                    <li><a href="internship.html">Internship</a></li>
-                                                    <li><a href="certifications.html">Certification</a></li>
-                                                    <li><a href="tutorials.html">Tutorials</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            
-                            <!-- <li class="dropdown hassubmenu">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shop <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="shop.html">Shop Layout</a></li>
-                                    <li><a href="shop-single.html">Shop Single</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown hassubmenu">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-1.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-2.html">Blog Grid Sidebar</a></li>
-                                    <li><a href="blog-3.html">Blog Grid Fullwidth</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li> -->
-                            <li><a href="index.html#our-works-home-pg">Our Works</a></li>
-                            <li><a href="page-contact.html">Contact</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <!-- <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
-                            <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li> -->
-                        </ul>
-                    </div>
-                </nav><!-- end navbar -->
-            </div><!-- end container -->
-        </header>
-
+    <?php include 'header-plain.php';?>
         <section class="section lb p120">
             <div class="container">
                 <div class="row">
@@ -169,8 +55,8 @@
                                 </div>
                             </h3>
                             <ul class="breadcrumb">
-                                <li><a href="index.html">Espark Tech</a></li>
-                                <li><a href="services.html">Services</a></li>
+                                <li><a href="index.php">Espark Tech</a></li>
+                                <li><a href="services.php">Services</a></li>
                                 <li class="active">Diploma Projects</li>
                             </ul>
                         </div>
@@ -202,7 +88,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-robotics-proj.html"><img src="images/img/extra/robotics-2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-robotics-proj.php"><img src="images/img/extra/robotics-2.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -210,7 +96,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-robotics-proj.html" title="">Robotics</a>
+                                        <a href="dp-robotics-proj.php" title="">Robotics</a>
                                         <!-- <small>Bags</small> -->
                                     </h4>
                                 </div>
@@ -221,7 +107,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-iot-proj.html"><img src="images/img/extra/iot-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-iot-proj.php"><img src="images/img/extra/iot-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -229,7 +115,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-iot-proj.html" title="">IoT</a>
+                                        <a href="dp-iot-proj.php" title="">IoT</a>
                                         <!-- <small>Jackets</small> -->
                                     </h4>
                                 </div>
@@ -240,7 +126,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-embedded-system-proj.html"><img src="images/img/extra/embedded-proj-new-2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-embedded-system-proj.php"><img src="images/img/extra/embedded-proj-new-2.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -248,7 +134,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-embedded-system-proj.html" title="">Embedded Systems</a>
+                                        <a href="dp-embedded-system-proj.php" title="">Embedded Systems</a>
                                         <!-- <small>Glasses</small> -->
                                     </h4>
                                 </div>
@@ -259,7 +145,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-android-proj.html"><img src="images/img/extra/android-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-android-proj.php"><img src="images/img/extra/android-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -267,7 +153,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-android-proj.html" title="">Android</a>
+                                        <a href="dp-android-proj.php" title="">Android</a>
                                         <!-- <small>T-Shirts</small> -->
                                     </h4>
                                 </div>
@@ -278,7 +164,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-cloud-computing-proj.html"><img src="images/img/extra/cc-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-cloud-computing-proj.php"><img src="images/img/extra/cc-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -286,7 +172,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-cloud-computing-proj.html" title="">Cloud Computing</a>
+                                        <a href="dp-cloud-computing-proj.php" title="">Cloud Computing</a>
                                         <!-- <small>Sweater</small> -->
                                     </h4>
                                 </div>
@@ -297,7 +183,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-electronics-proj.html"><img src="images/img/extra/electronics-new-2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-electronics-proj.php"><img src="images/img/extra/electronics-new-2.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -305,7 +191,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-electronics-proj.html" title="">Electronics</a>
+                                        <a href="dp-electronics-proj.php" title="">Electronics</a>
                                         <!-- <small>Shoes</small> -->
                                     </h4>
                                 </div>
@@ -316,7 +202,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-machine-learning-proj.html"><img src="images/img/extra/machine-learning-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-machine-learning-proj.php"><img src="images/img/extra/machine-learning-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -324,7 +210,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-machine-learning-proj.html" title="">Machine Learning</a>
+                                        <a href="dp-machine-learning-proj.php" title="">Machine Learning</a>
                                         <!-- <small>Coat</small> -->
                                     </h4>
                                 </div>
@@ -335,7 +221,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-web-development-proj.html"><img src="images/img/extra/web-dev-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-web-development-proj.php"><img src="images/img/extra/web-dev-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -343,7 +229,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-web-development-proj.html" title="">Website Development</a>
+                                        <a href="dp-web-development-proj.php" title="">Website Development</a>
                                         <!-- <small>Shorts</small> -->
                                     </h4>
                                 </div>
@@ -354,7 +240,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-computer-security-proj.html"><img src="images/img/extra/cyber-security-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-computer-security-proj.php"><img src="images/img/extra/cyber-security-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -362,7 +248,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-computer-security-proj.html" title="">Computer Security</a>
+                                        <a href="dp-computer-security-proj.php" title="">Computer Security</a>
                                         <!-- <small>Shorts</small> -->
                                     </h4>
                                 </div>
@@ -373,7 +259,7 @@
                         <div class="col-md-4 wow fadeInUp">
                             <div class="course-box shop-wrapper">
                                 <div class="image-wrap entry">
-                                    <a href="dp-data-mining-proj.html"><img src="images/img/extra/data-mining-new-1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="dp-data-mining-proj.php"><img src="images/img/extra/data-mining-new-1.jpg" alt="" class="img-responsive"></a>
                                     <!-- <div class="magnifier">
                                         <a href="#" title=""><i class="flaticon-add"></i></a>
                                     </div> -->
@@ -381,7 +267,7 @@
                                 <!-- end image-wrap -->
                                 <div class="course-details shop-box text-center">
                                     <h4>
-                                        <a href="dp-data-mining-proj.html" title="">Data Mining</a>
+                                        <a href="dp-data-mining-proj.php" title="">Data Mining</a>
                                         <!-- <small>Shorts</small> -->
                                     </h4>
                                 </div>
@@ -463,90 +349,7 @@
             </div><!-- end container -->
         </section>
 
-        <footer class="section footer noover">
-            <div class="container">
-                <div class="row">
-                    
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Join us today</h3>
-                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
-                            <a href="page-contact.html" class="readmore">Became a Teacher</a>
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Useful Links</h3>
-                            <div class="list-widget">   
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="workshop.html">Workshop</a></li>
-                                    <li><a href="internship.html">Internship</a></li>
-                                    <li><a href="certifications.html">Certification</a></li>
-                                    <li><a href="tutorials.html">Tutorials</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Useful Links</h3>
-                            <div class="list-widget">   
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="aboutus.html">About Us</a></li>
-                                    <li><a href="page-contact.html">Get In Touch</a></li>
-                                </ul>
-                            </div><!-- end list-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
-                            <div class="newsletter-widget">
-                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
-                                <form class="form-inline" role="search">
-                                    <div class="form-1">
-                                        <input type="text" class="form-control" placeholder="Enter email here..">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
-                                    </div>
-                                </form>
-                                <!-- <img src="images/payments.png" alt="" class="img-responsive"> -->
-                            </div><!-- end newsletter -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </footer><!-- end footer -->
-
-        <div class="copyrights">
-            <div class="container">
-                <div class="clearfix">
-                    <!-- <div class="pull-left">
-                        <div class="cop-logo">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
-                        </div>
-                    </div> -->
-
-                    <div class="text-center">
-                        <div class="footer-links">
-                            <ul class="list-inline">
-                                <!-- <li>Design : <a href="https://destovtech.tk" target="_blank">Destov Tech</a></li> -->
-                                <!-- <li>Distributed by : <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></li> -->
-                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All Right Reserved <br> Designed and Developed  by <a href="https://destovtech.tk" target="_blank" style="color: #fff;">Destov Tech</a></p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </div><!-- end copy -->
+<?php include 'footer.php';?>
     </div><!-- end wrapper -->
 
     <!-- jQuery Files -->
@@ -555,52 +358,7 @@
     <script src="js/animate.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/custom.js"></script>
-    <script>
-    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?94197';
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.async = true;
-    s.src = url;
-    var options = {
-  "enabled":true,
-  "chatButtonSetting":{
-      "backgroundColor":"#4dc247",
-      "ctaText":"",
-      "borderRadius":"25",
-      "marginLeft":"30",
-      "marginBottom":"30",
-      "marginRight":"0",
-      "position":"left"
-  },
-  "brandSetting":{
-      "brandName":"Espark Tech",
-      "brandSubTitle":"",
-      "brandImg":"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-      "welcomeText":"Hi, there!\nHow can I help you?",
-      "messageText":"Hello, I have a question about ",
-      "backgroundColor":"#4ac959",
-      "ctaText":"Start Chat",
-      "borderRadius":"25",
-      "autoShow":false,
-      "phoneNumber":"918788414717"
-  }
-};
-    s.onload = function() {
-        CreateWhatsappChatWidget(options);
-    };
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-    </script>
-    <script type="text/javascript">  
-        function googleTranslateElementInit() {  
-            new google.translate.TranslateElement( 
-                {pageLanguage: 'en'},  
-                'google_translate_element' 
-            );  
-        }  
-    </script>
-    <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> 
-    </script>
+    
 
 </body>
 </html>
